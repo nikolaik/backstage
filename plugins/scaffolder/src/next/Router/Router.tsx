@@ -19,10 +19,12 @@ import { TemplateListPage } from '../TemplateListPage';
 import { TemplateWizardPage } from '../TemplateWizardPage';
 import {
   NextFieldExtensionOptions,
+  FormProps,
+} from '@backstage/plugin-scaffolder-react/alpha';
+import {
   SecretsContextProvider,
   useCustomFieldExtensions,
   useCustomLayouts,
-  type FormProps,
 } from '@backstage/plugin-scaffolder-react';
 
 import { TemplateEntityV1beta3 } from '@backstage/plugin-scaffolder-common';

@@ -23,17 +23,19 @@ import {
   useRouteRefParams,
 } from '@backstage/core-plugin-api';
 import {
-  scaffolderApiRef,
-  useTemplateSecrets,
   Workflow,
-  type LayoutOptions,
-} from '@backstage/plugin-scaffolder-react';
-import { NextFieldExtensionOptions } from '@backstage/plugin-scaffolder-react';
+  NextFieldExtensionOptions,
+} from '@backstage/plugin-scaffolder-react/alpha';
 import { JsonValue } from '@backstage/types';
 import { type FormProps } from '../types';
 import { nextRouteRef } from '../routes';
 import { scaffolderTaskRouteRef, selectedTemplateRouteRef } from '../../routes';
 import { Header, Page } from '@backstage/core-components';
+import {
+  scaffolderApiRef,
+  useTemplateSecrets,
+  LayoutOptions,
+} from '@backstage/plugin-scaffolder-react';
 
 export type TemplateWizardPageProps = {
   customFieldExtensions: NextFieldExtensionOptions<any, any>[];
