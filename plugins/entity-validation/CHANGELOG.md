@@ -1,5 +1,15 @@
 # @backstage/plugin-entity-validation
 
+## 0.1.0-next.1
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/core-components@0.12.4-next.2
+  - @backstage/theme@0.2.17-next.0
+  - @backstage/plugin-catalog-react@1.3.0-next.3
+  - @backstage/core-plugin-api@1.3.0
+
 ## 0.1.0-next.0
 
 ### Minor Changes

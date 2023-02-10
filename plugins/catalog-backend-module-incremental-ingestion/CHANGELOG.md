@@ -1,5 +1,19 @@
 # @backstage/plugin-catalog-backend-module-incremental-ingestion
 
+## 0.2.0-next.3
+
+### Patch Changes
+
+- 5b7cd5580d: Moving the backend-test-utils to devDependencies.
+- Updated dependencies
+  - @backstage/plugin-catalog-backend@1.7.2-next.3
+  - @backstage/backend-plugin-api@0.4.0-next.3
+  - @backstage/backend-common@0.18.2-next.3
+  - @backstage/backend-tasks@0.4.3-next.3
+  - @backstage/plugin-catalog-node@1.3.3-next.3
+  - @backstage/plugin-events-node@0.2.3-next.3
+  - @backstage/config@1.0.6
+
 ## 0.2.0-next.2
 
 ### Patch Changes

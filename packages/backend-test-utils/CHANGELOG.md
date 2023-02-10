@@ -1,5 +1,17 @@
 # @backstage/backend-test-utils
 
+## 0.1.34-next.3
+
+### Patch Changes
+
+- b86efa2d04: Updated usage of `ServiceFactory`.
+- Updated dependencies
+  - @backstage/backend-app-api@0.4.0-next.3
+  - @backstage/backend-plugin-api@0.4.0-next.3
+  - @backstage/backend-common@0.18.2-next.3
+  - @backstage/plugin-auth-node@0.2.11-next.3
+  - @backstage/config@1.0.6
+
 ## 0.1.34-next.2
 
 ### Patch Changes

@@ -1,5 +1,19 @@
 # @backstage/plugin-catalog
 
+## 1.8.0-next.3
+
+### Patch Changes
+
+- d7f55f6bd2: The list of entities takes into account the title when its different from the name to sort the entities.
+- 7d46ca2f68: Make catalog search result list a bit more customizable
+- Updated dependencies
+  - @backstage/core-components@0.12.4-next.2
+  - @backstage/theme@0.2.17-next.0
+  - @backstage/integration-react@1.1.10-next.2
+  - @backstage/plugin-catalog-react@1.3.0-next.3
+  - @backstage/plugin-search-react@1.5.0-next.2
+  - @backstage/core-plugin-api@1.3.0
+
 ## 1.8.0-next.2
 
 ### Patch Changes

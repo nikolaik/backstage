@@ -1,5 +1,14 @@
 # @backstage/plugin-search-backend-module-elasticsearch
 
+## 1.1.3-next.3
+
+### Patch Changes
+
+- 896566906b: Export `decodeElasticSearchPageCursor` utility function
+- Updated dependencies
+  - @backstage/config@1.0.6
+  - @backstage/plugin-search-backend-node@1.1.3-next.3
+
 ## 1.1.3-next.2
 
 ### Patch Changes

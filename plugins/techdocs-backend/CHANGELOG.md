@@ -1,5 +1,16 @@
 # @backstage/plugin-techdocs-backend
 
+## 1.5.3-next.3
+
+### Patch Changes
+
+- 339d9a5b5c: Added support for using a default `mkdocs.yml` configuration file when none is provided
+- Updated dependencies
+  - @backstage/plugin-techdocs-node@1.4.6-next.3
+  - @backstage/backend-common@0.18.2-next.3
+  - @backstage/config@1.0.6
+  - @backstage/integration@1.4.2
+
 ## 1.5.3-next.2
 
 ### Patch Changes

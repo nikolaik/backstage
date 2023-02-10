@@ -1,5 +1,17 @@
 # @backstage/plugin-playlist-backend
 
+## 0.2.5-next.3
+
+### Patch Changes
+
+- b977c2e69f: Minor improvements to the descriptions provided with permission rules schemas
+- 5b7cd5580d: Moving the backend-test-utils to devDependencies.
+- Updated dependencies
+  - @backstage/backend-common@0.18.2-next.3
+  - @backstage/plugin-auth-node@0.2.11-next.3
+  - @backstage/plugin-permission-node@0.7.5-next.3
+  - @backstage/config@1.0.6
+
 ## 0.2.5-next.2
 
 ### Patch Changes

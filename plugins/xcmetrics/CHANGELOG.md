@@ -1,5 +1,14 @@
 # @backstage/plugin-xcmetrics
 
+## 0.2.35-next.2
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/core-components@0.12.4-next.2
+  - @backstage/theme@0.2.17-next.0
+  - @backstage/core-plugin-api@1.3.0
+
 ## 0.2.35-next.1
 
 ### Patch Changes

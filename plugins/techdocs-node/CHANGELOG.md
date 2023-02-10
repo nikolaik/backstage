@@ -1,5 +1,16 @@
 # @backstage/plugin-techdocs-node
 
+## 1.4.6-next.3
+
+### Patch Changes
+
+- 339d9a5b5c: Added support for using a default `mkdocs.yml` configuration file when none is provided
+- Updated dependencies
+  - @backstage/backend-common@0.18.2-next.3
+  - @backstage/config@1.0.6
+  - @backstage/integration@1.4.2
+  - @backstage/integration-aws-node@0.1.1
+
 ## 1.4.6-next.2
 
 ### Patch Changes

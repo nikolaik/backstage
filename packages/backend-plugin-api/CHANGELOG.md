@@ -1,5 +1,18 @@
 # @backstage/backend-plugin-api
 
+## 0.4.0-next.3
+
+### Minor Changes
+
+- b86efa2d04: Switch `ServiceFactory` to be an opaque type, keeping only the `service` field as public API, but also adding a type parameter for the service scope.
+
+### Patch Changes
+
+- Updated dependencies
+  - @backstage/backend-tasks@0.4.3-next.3
+  - @backstage/plugin-auth-node@0.2.11-next.3
+  - @backstage/config@1.0.6
+
 ## 0.4.0-next.2
 
 ### Minor Changes

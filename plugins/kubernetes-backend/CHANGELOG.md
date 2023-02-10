@@ -1,5 +1,15 @@
 # @backstage/plugin-kubernetes-backend
 
+## 0.9.3-next.3
+
+### Patch Changes
+
+- 5b7cd5580d: Moving the backend-test-utils to devDependencies.
+- Updated dependencies
+  - @backstage/backend-common@0.18.2-next.3
+  - @backstage/plugin-auth-node@0.2.11-next.3
+  - @backstage/config@1.0.6
+
 ## 0.9.3-next.2
 
 ### Patch Changes

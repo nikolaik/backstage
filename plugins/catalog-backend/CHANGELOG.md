@@ -1,5 +1,18 @@
 # @backstage/plugin-catalog-backend
 
+## 1.7.2-next.3
+
+### Patch Changes
+
+- b977c2e69f: Minor improvements to the descriptions provided with permission rules schemas
+- Updated dependencies
+  - @backstage/backend-plugin-api@0.4.0-next.3
+  - @backstage/backend-common@0.18.2-next.3
+  - @backstage/plugin-catalog-node@1.3.3-next.3
+  - @backstage/plugin-permission-node@0.7.5-next.3
+  - @backstage/config@1.0.6
+  - @backstage/integration@1.4.2
+
 ## 1.7.2-next.2
 
 ### Patch Changes

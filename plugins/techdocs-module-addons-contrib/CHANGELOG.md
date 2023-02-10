@@ -1,5 +1,48 @@
 # @backstage/plugin-techdocs-module-addons-contrib
 
+## 1.0.10-next.3
+
+### Patch Changes
+
+- 4660b63947: Create a TechDocs `<LightBox/>` addon that allows users to open images in a light-box on documentation pages, they can navigate between images if there are several on one page.
+
+  Here's an example on how to use it in a Backstage app:
+
+  ```diff
+  import {
+    DefaultTechDocsHome,
+    TechDocsIndexPage,
+    TechDocsReaderPage,
+  } from '@backstage/plugin-techdocs';
+  import { TechDocsAddons } from '@backstage/plugin-techdocs-react/alpha';
+  +import { LightBox } from '@backstage/plugin-techdocs-module-addons-contrib';
+
+  const AppRoutes = () => {
+    <FlatRoutes>
+      // other plugin routes
+      <Route path="/docs" element={<TechDocsIndexPage />}>
+        <DefaultTechDocsHome />
+      </Route>
+      <Route
+        path="/docs/:namespace/:kind/:name/*"
+        element={<TechDocsReaderPage />}
+      >
+        <TechDocsAddons>
+  +       <LightBox />
+        </TechDocsAddons>
+      </Route>
+    </FlatRoutes>;
+  };
+  ```
+
+- Updated dependencies
+  - @backstage/core-components@0.12.4-next.2
+  - @backstage/theme@0.2.17-next.0
+  - @backstage/integration-react@1.1.10-next.2
+  - @backstage/plugin-techdocs-react@1.1.3-next.3
+  - @backstage/core-plugin-api@1.3.0
+  - @backstage/integration@1.4.2
+
 ## 1.0.10-next.2
 
 ### Patch Changes
